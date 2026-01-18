@@ -7,12 +7,12 @@ import PromotionIcon from "@/public/images/icons/promotion.svg";
 export default function SubmitArticle() {
   return (
     <div
-      className="relative flex items-center md:h-100 container mx-auto rounded-2xl  justify-center mb-33 background-contain md:background-cover"
+      className="relative flex flex-col lg:flex-row items-center lg:h-100 h-auto container mx-auto rounded-2xl justify-center mb-33 bg-cover py-10 lg:py-0"
       style={{
-        background: "url('/images/submit-article-bg.png')",
+        backgroundImage: "url('/images/submit-article-bg.png')",
       }}
     >
-      <div className="md:absolute h-full left-0 top-0 w-md">
+      <div className="lg:absolute h-full left-0 top-0 w-md lg:block hidden">
         <Image
           src="/images/submit-article-left.png"
           alt="overlay"
@@ -20,7 +20,7 @@ export default function SubmitArticle() {
           className="object-cover rounded-2xl"
         />
       </div>
-      <div className="md:pr-100 md:pl-100 text-center">
+      <div className="lg:pr-100 pr-0 lg:pl-100 pl-0 text-center">
         <div>
           <PromotionIcon className="inline-block w-12 h-12 mb-4 text-brand-red -rotate-25" />
         </div>
@@ -43,7 +43,7 @@ export default function SubmitArticle() {
           </span>
         </Link>
       </div>
-      <div className="md:absolute right-14 w-80 h-120 bottom-0">
+      <div className="relative lg:absolute lg:right-14 w-80 h-120 right-0 bottom-0">
         <Image
           src="/images/submit-article-right.png"
           alt="overlay"

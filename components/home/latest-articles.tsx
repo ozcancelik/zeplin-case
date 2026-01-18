@@ -77,8 +77,8 @@ export default function LatestArticles() {
             </div>
             <div className="flex items-center flex-col md:flex-row">
               <div className="md:w-2/3 w-full">
-                <div className="flex items-center gap-4">
-                  <PdfIcon className="inline-block w-4 h-4 text-brand-gray" />
+                <div className="flex items-center gap-2 pl-1">
+                  <PdfIcon className="inline-block w-5 h-7 text-brand-gray" />
                   <h6 className="text-brand-black font-bold">
                     Türkiye&apos;nin Teknoloji Politikaları ve Döngüsel Ekonomi
                   </h6>
