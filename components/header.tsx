@@ -109,6 +109,17 @@ function Header() {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden fixed inset-0 top-30 bg-white z-50 overflow-y-auto">
+          <div className=" text-brand-black flex gap-4 items-center justify-center border-b p-6">
+            <span>
+              ISSN: <strong>345-255</strong>
+            </span>
+            <span>
+              Başlangıç <strong>2025</strong>
+            </span>
+            <span>
+              Periyot: <strong>Yılda 2 Sayı</strong>
+            </span>
+          </div>
           <nav className="p-6">
             <ul className="flex flex-col gap-4">
               <li>

@@ -134,7 +134,7 @@ function Issues() {
       >
         {issuesList.map((issue) => (
           <SwiperSlide key={issue.id} className="relative w-full h-full">
-            <div className="flex border border-brand-stroke-2 rounded-lg p-5">
+            <div className="flex border border-brand-stroke-2 rounded-xl p-5 bg-white">
               <div className="w-1/3 relative">
                 <Image
                   src={issue.image}
