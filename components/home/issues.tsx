@@ -16,7 +16,7 @@ import RightIcon from "@/public/images/icons/right.svg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 const issuesList = [
   {
     id: 1,

@@ -7,7 +7,7 @@ import EmailIcon from "@/public/images/icons/email.svg";
 import DownloadIcon from "@/public/images/icons/download.svg";
 import EyeIcon from "@/public/images/icons/eye.svg";
 import RightIcon from "@/public/images/icons/right.svg";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import Link from "next/link";
 
 export default function LatestArticles() {
